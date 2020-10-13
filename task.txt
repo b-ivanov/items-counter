@@ -1,0 +1,15 @@
+/* 
+  Implement a component called ItemCounter 
+  that provides the following functionality:
+ 
+- Displays a current number of “Items.” Initially, there are zero items.
+- Has an “Add Item” button that increases the Items count by one. 
+And a “Remove Item” button that decreases the count by one.
+- When the number of Items is 10 or greater, the displayed item count should be “10+”. 
+But behind the scenes, the real item count should be maintained.
+- Allows a parent component to specify:
+- Whether this component is enabled or not. When the component is not enabled, 
+the background color is gray (instead of white), and the buttons are disabled.
+- A function that will be called when another button, “Process”, is clicked.
+
+*/
